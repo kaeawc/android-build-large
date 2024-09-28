@@ -18,7 +18,8 @@ insert_namespace() {
         else
             # Insert the namespace into the android block
             sed -i '' '/android {/a\
-    namespace "'"$namespace"'"\\n' "$gradle_file"
+    namespace "'"$namespace"'"\
+' "$gradle_file"
             echo "Namespace \"$namespace\" added to $gradle_file."
         fi
     else
