@@ -33,7 +33,6 @@ androidx-navigation-ui-ktx = "2.2.1"
 androidx-preference = "1.1.0"
 androidx-recyclerview = "1.0.0"
 androidx-sqlite = "2.0.1"
-androidx-sqlite = "2.0.1"
 androidx-swiperefreshlayout = "1.0.0"
 androidx-test-espresso = "3.1.0"
 androidx-test-uiautomator = "2.2.0"
@@ -179,7 +178,7 @@ androidx-preference = { group = "androidx.preference", name = "preference-ktx", 
 # androidx.recyclerview:recyclerview:1.0.0
 androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "androidx-recyclerview" }
 # androidx.sqlite:sqlite-framework:2.0.1
-androidx-sqlite = { group = "androidx.sqlite", name = "sqlite-framework", version.ref = "androidx-sqlite" }
+androidx-sqlite-framework = { group = "androidx.sqlite", name = "sqlite-framework", version.ref = "androidx-sqlite" }
 # androidx.sqlite:sqlite:2.0.1
 androidx-sqlite = { group = "androidx.sqlite", name = "sqlite", version.ref = "androidx-sqlite" }
 # androidx.swiperefreshlayout:swiperefreshlayout:1.0.0
