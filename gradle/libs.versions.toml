@@ -196,13 +196,13 @@ androidx-test-ext = { group = "androidx.test.ext", name = "junit", version.ref =
 # androidx.test.uiautomator:uiautomator:2.2.0
 androidx-test-uiautomator = { group = "androidx.test.uiautomator", name = "uiautomator", version.ref = "androidx-test-uiautomator" }
 # androidx.test:core:1.1.0
-androidx-test = { group = "androidx.test", name = "core", version.ref = "androidx-test" }
+androidx-test-core = { group = "androidx.test", name = "core", version.ref = "androidx-test" }
 # androidx.test:monitor:1.1.0
-androidx-test = { group = "androidx.test", name = "monitor", version.ref = "androidx-test" }
+androidx-test-monitor = { group = "androidx.test", name = "monitor", version.ref = "androidx-test" }
 # androidx.test:rules:1.1.0
-androidx-test = { group = "androidx.test", name = "rules", version.ref = "androidx-test" }
+androidx-test-rules = { group = "androidx.test", name = "rules", version.ref = "androidx-test" }
 # androidx.test:runner:1.1.0
-androidx-test = { group = "androidx.test", name = "runner", version.ref = "androidx-test" }
+androidx-test-runner = { group = "androidx.test", name = "runner", version.ref = "androidx-test" }
 # androidx.transition:transition:1.2.0
 androidx-transition = { group = "androidx.transition", name = "transition", version.ref = "androidx-transition" }
 # androidx.viewpager2:viewpager2:1.0.0
@@ -419,7 +419,7 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 hamcrest-core = { group = "org.hamcrest", name = "hamcrest-core", version.ref = "hamcrest-core" }
 # org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72
 jetbrains-kotlin-android-extensions-runtime = { group = "org.jetbrains.kotlin", name = "kotlin-android-extensions-runtime", version.ref = "build-kotlin" }
-# org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.20
+# org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72
 jetbrains-kotlin-stdlib-jdk8 = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk8", version.ref = "build-kotlin" }
 # org.jetbrains.kotlin:kotlin-test-junit:1.3.72
 jetbrains-kotlin-test-junit = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit", version.ref = "build-kotlin" }
