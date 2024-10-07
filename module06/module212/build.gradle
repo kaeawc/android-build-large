@@ -1,5 +1,6 @@
 apply plugin: "com.android.library"
 android {
+    namespace "pkg.android.module06.module212"
     compileSdkVersion = "android-29"
     defaultConfig {
         minSdkVersion 21

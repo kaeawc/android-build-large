@@ -1,5 +1,6 @@
 apply plugin: "com.android.library"
 android {
+    namespace "pkg.android.module07.module39.module3.module3"
     compileSdkVersion = "android-29"
     defaultConfig {
         minSdkVersion 21

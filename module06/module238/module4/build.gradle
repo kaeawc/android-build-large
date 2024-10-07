@@ -2,6 +2,7 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 apply plugin: "kotlin-kapt"
             android {
+    namespace "pkg.android.module06.module238.module4"
                 compileSdkVersion = "android-29"
                 defaultConfig {
                     minSdkVersion 21

@@ -1,6 +1,7 @@
 apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
             android {
+    namespace "pkg.android.module07.module81.module6"
                 compileSdkVersion = "android-29"
                 defaultConfig {
                     minSdkVersion 21

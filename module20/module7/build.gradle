@@ -1,5 +1,6 @@
 apply plugin: "com.android.application"
 android {
+    namespace "pkg.android.module20.module7"
     compileSdkVersion = "android-29"
     defaultConfig {
         minSdkVersion 21
